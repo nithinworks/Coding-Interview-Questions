@@ -1,0 +1,113 @@
+{
+  "settings": {
+    "name": "Ravi Kiran Kuchillapati",
+    "title": "Computer Science Student",
+    "location": "Sangareddy, India",
+    "summary": "A dedicated and tech-savvy individual with a B.Tech in Computer Science Engineering searching for a challenging role at a progressive organisation that offers immense growth opportunities and to implement my advanced knowledge and skills to contribute to the success of the organisation",
+    "lightMode": true,
+    "profileImage": null,
+    "primaryColor": "#4285F4"
+  },
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "ctaButtons": [
+        {
+          "text": "connect with me",
+          "url": "#contact",
+          "isPrimary": true
+        },
+        {
+          "text": "my resume",
+          "url": "#",
+          "isPrimary": false,
+          "icon": "link"
+        }
+      ]
+    },
+    "about": {
+      "enabled": true,
+      "title": "About me",
+      "content": "A dedicated and tech-savvy individual with a B.Tech in Computer Science Engineering searching for a challenging role at a progressive organisation that offers immense growth opportunities and to implement my advanced knowledge and skills to contribute to the success of the organisation",
+      "skills": {
+        "enabled": true,
+        "title": "Skills",
+        "items": [
+          "Java", "SQL", "Python", "C", "C++", "MS Office"
+        ]
+      }
+    },
+    "projects": {
+      "enabled": true,
+      "title": "Projects",
+      "items": [
+        {
+          "title": "Advice Mate - GPT Powered Chatbots",
+          "description": "Created a 15+ chatbots using OpenAl API. The bots trained for their respective fields. So users can able to ask any questions in their field and our chatbots replies form the billions of parameters",
+          "tags": ["OpenAI API"],
+          "previewUrl": "https://advicemate.io"
+        }
+      ]
+    },
+    "experience": {
+      "enabled": true,
+      "title": "Work Experience",
+      "items": [
+        {
+          "company": "SP Technologies",
+          "position": "Android Developer",
+          "period": "11/2018 - 05/2019",
+          "description": "6 Months Industrial Training. Proficiently troubleshoot simple and complex technical issues for different assigned projects, achieving a 90% success rate. Enhanced the application's features to effectively fix the bugs and optimize the overall performance, reliability, and efficiency. Designed and implemented Advanced Weather Application to detect weather in current location using OpenWeather API."
+        }
+      ]
+    },
+    "education": {
+      "enabled": true,
+      "title": "Education",
+      "items": [
+        {
+          "institution": "Vidya Jyothi Institute of Technology",
+          "degree": "B.tech in Computer Science",
+          "period": "06/2021 - Present",
+          "location": "Hyderabad"
+        },
+        {
+          "institution": "RRS College of Engineering & Technology",
+          "degree": "Diploma In Computer Engineering",
+          "period": "06/2016 - 06/2019",
+          "location": "Hyderabad"
+        },
+        {
+          "institution": "Shishu Vihar High School",
+          "degree": "SSC",
+          "period": "06/2015 - 05/2016",
+          "grade": "8.0"
+        }
+      ]
+    },
+    "contact": {
+      "enabled": true,
+      "title": "Contact",
+      "email": "ravikirank.vjit@gmail.com",
+      "phone": "9014537609",
+      "location": "11-216/2, Shantinagar, Patancheru, Sangareddy, 502319"
+    },
+    "social": {
+      "enabled": false,
+      "items": []
+    }
+  },
+  "navigation": {
+    "items": [
+      { "name": "Home", "url": "/" },
+      { "name": "About me", "url": "#about" },
+      { "name": "Projects", "url": "#projects" },
+      { "name": "Education", "url": "#education" },
+      { "name": "Contact", "url": "#contact" }
+    ]
+  },
+  "footer": {
+    "enabled": true,
+    "copyright": "© 2024 Ravi Kiran Kuchillapati. All rights reserved."
+  }
+}
