@@ -1,12 +1,12 @@
 {
   "settings": {
-    "name": "Ravi Kiran Kuchillapati",
-    "title": "Computer Science Student",
-    "location": "Sangareddy, India",
-    "summary": "A dedicated and tech-savvy individual with a B.Tech in Computer Science Engineering searching for a challenging role at a progressive organisation that offers immense growth opportunities and to implement my advanced knowledge and skills to contribute to the success of the organisation",
+    "name": "William Mark",
+    "title": "Frontend Web Developer",
+    "location": "london",
+    "summary": "I am a frontend developer from California, USA with 10 years of experience in multiple companies like Microsoft, Tesla and Apple.",
     "lightMode": true,
-    "profileImage": null,
-    "primaryColor": "#4285F4"
+    "profileImage": "/lovable-uploads/ba993416-a515-4bbb-8bb1-809d04744c04.png",
+    "primaryColor": "#d65822"
   },
   "sections": {
     "hero": {
@@ -28,12 +28,14 @@
     "about": {
       "enabled": true,
       "title": "About me",
-      "content": "A dedicated and tech-savvy individual with a B.Tech in Computer Science Engineering searching for a challenging role at a progressive organisation that offers immense growth opportunities and to implement my advanced knowledge and skills to contribute to the success of the organisation",
+      "content": "I'm a passionate frontend developer with a keen eye for design and a commitment to creating beautiful, functional web experiences. I specialize in React, TypeScript, and modern web technologies, always striving to write clean, maintainable code.",
       "skills": {
         "enabled": true,
         "title": "Skills",
         "items": [
-          "Java", "SQL", "Python", "C", "C++", "MS Office"
+          "React", "TypeScript", "JavaScript", "HTML5", "CSS3", 
+          "Tailwind CSS", "Next.js", "Redux", "GraphQL", "Node.js",
+          "Responsive Design", "UI/UX", "Git", "Jest", "Webpack"
         ]
       }
     },
@@ -42,22 +44,46 @@
       "title": "Projects",
       "items": [
         {
-          "title": "Advice Mate - GPT Powered Chatbots",
-          "description": "Created a 15+ chatbots using OpenAl API. The bots trained for their respective fields. So users can able to ask any questions in their field and our chatbots replies form the billions of parameters",
-          "tags": ["OpenAI API"],
-          "previewUrl": "https://advicemate.io"
+          "title": "E-commerce Platform",
+          "description": "A fully responsive e-commerce platform built with React and Node.js",
+          "tags": ["React", "Node.js", "MongoDB", "Redux"],
+          "previewUrl": "#"
+        },
+        {
+          "title": "Task Management App",
+          "description": "A Kanban-style task management application with drag and drop functionality",
+          "tags": ["TypeScript", "React", "Firebase"],
+          "previewUrl": "#"
+        },
+        {
+          "title": "Portfolio Website",
+          "description": "A minimalist portfolio website template with customizable themes",
+          "tags": ["React", "Tailwind CSS", "Framer Motion"],
+          "previewUrl": "#"
         }
       ]
     },
     "experience": {
       "enabled": true,
-      "title": "Work Experience",
+      "title": "Experience",
       "items": [
         {
-          "company": "SP Technologies",
-          "position": "Android Developer",
-          "period": "11/2018 - 05/2019",
-          "description": "6 Months Industrial Training. Proficiently troubleshoot simple and complex technical issues for different assigned projects, achieving a 90% success rate. Enhanced the application's features to effectively fix the bugs and optimize the overall performance, reliability, and efficiency. Designed and implemented Advanced Weather Application to detect weather in current location using OpenWeather API."
+          "company": "Apple",
+          "position": "Senior Frontend Developer",
+          "period": "2020 - Present",
+          "description": "Leading frontend development for internal tools and applications"
+        },
+        {
+          "company": "Tesla",
+          "position": "Frontend Developer",
+          "period": "2017 - 2020",
+          "description": "Developed and maintained customer-facing web applications"
+        },
+        {
+          "company": "Microsoft",
+          "position": "Web Developer",
+          "period": "2014 - 2017",
+          "description": "Created responsive websites and internal tools"
         }
       ]
     },
@@ -66,35 +92,43 @@
       "title": "Education",
       "items": [
         {
-          "institution": "Vidya Jyothi Institute of Technology",
-          "degree": "B.tech in Computer Science",
-          "period": "06/2021 - Present",
-          "location": "Hyderabad"
+          "institution": "Stanford University",
+          "degree": "MSc in Computer Science",
+          "period": "2012 - 2014"
         },
         {
-          "institution": "RRS College of Engineering & Technology",
-          "degree": "Diploma In Computer Engineering",
-          "period": "06/2016 - 06/2019",
-          "location": "Hyderabad"
-        },
-        {
-          "institution": "Shishu Vihar High School",
-          "degree": "SSC",
-          "period": "06/2015 - 05/2016",
-          "grade": "8.0"
+          "institution": "University of California",
+          "degree": "BSc in Software Engineering",
+          "period": "2008 - 2012"
         }
       ]
     },
     "contact": {
       "enabled": true,
       "title": "Contact",
-      "email": "ravikirank.vjit@gmail.com",
-      "phone": "9014537609",
-      "location": "11-216/2, Shantinagar, Patancheru, Sangareddy, 502319"
+      "email": "william@example.com",
+      "phone": "+44 123 456 7890",
+      "location": "London, UK"
     },
     "social": {
-      "enabled": false,
-      "items": []
+      "enabled": true,
+      "items": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/williammark",
+          "icon": "linkedin"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/williammark",
+          "icon": "github"
+        },
+        {
+          "platform": "Twitter",
+          "url": "https://twitter.com/williammark",
+          "icon": "twitter"
+        }
+      ]
     }
   },
   "navigation": {
@@ -102,12 +136,13 @@
       { "name": "Home", "url": "/" },
       { "name": "About me", "url": "#about" },
       { "name": "Projects", "url": "#projects" },
+      { "name": "My work", "url": "#experience" },
       { "name": "Education", "url": "#education" },
       { "name": "Contact", "url": "#contact" }
     ]
   },
   "footer": {
     "enabled": true,
-    "copyright": "© 2024 Ravi Kiran Kuchillapati. All rights reserved."
+    "copyright": "© 2023 William Mark. All rights reserved."
   }
 }
